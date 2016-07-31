@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean b) {
                 TextClock textClock = (TextClock) findViewById(R.id.textClock);
-                textClock.setTextSize(progress*2 + 50);
+                textClock.setTextSize(progress*2 + 60);
             }
 
             @Override
